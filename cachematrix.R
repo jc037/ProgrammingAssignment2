@@ -1,7 +1,7 @@
 ## These two functions work together to cache a matrix based on user-input, 
 ## and solve the inverse of that matrix if is new, or return the previous inverse if it has not changed
 
-## This creates a matrix as defined by the user-input, defines a function to retrieve that matrix, and sets i to null to indicate to cacheSolve that the cache has been updated.
+## This creates a matrix from the user-input (using setinverse), defines a function (getinverse) to retrieve that matrix, and sets i to null to indicate to cacheSolve that the cache has been updated.
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
